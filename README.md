@@ -43,10 +43,10 @@ Köszöntelek a PromNET Portál repositoryjában! Ez a repository a portál kód
 
 ## 👋 Elkezdés
 
-A projekt helyi futtatásához kövesse az alábbi lépéseket:
+A projekt helyi futtatásához kövesse az alábbi lépéseket: EREDETI FORRÁS megtartásával!!
 
 ```Bash
-git clone https://github.com/tszhong0411/honghong.me.git <- EREDETI FORRÁS!!
+git clone https://github.com/tszhong0411/honghong.me.git
 cd weboldalneve
 pnpm install
 ```
@@ -65,14 +65,14 @@ Az alkalmazás a http://localhost:3000 címen lesz elérhető.
 github.com/fitcevents/webu-2016/blob/master/Real%20World%20React%20Debugging.md
 github.com/sendwithus/competencieslicenchez kötött (MIT)
 
-## ✈️ TODO
+## TODO
 
 - Use strict content security policy - still not working in `14.0.4`
   - `next/image` - https://github.com/vercel/next.js/issues/45184
   - `nonces` - https://github.com/vercel/next.js/discussions/54907
   - `main-app.js` - https://github.com/vercel/next.js/issues/55129
 
-## ✈️ 🔔 Fontos Megjegyzés
+## 🔔 Fontos Megjegyzés
 
 Helló! Bár örülök, hogy érdeklődsz az open-source projektjeim iránt, szívesen kérlek, hogy ne használd ezt a forráskódot az oldalad sablonjaként. Ehelyett arra buzdítalak, hogy használd tanulási forrásként és inspirációként, hogy valami egyedit hozz létre.
 
@@ -80,7 +80,7 @@ Eredetiség: A nulláról való építés lehetővé teszi, hogy bemutasd az ere
 Tanulás: Saját projekt létrehozása segít tanulni és fejleszteni a készségeidet.
 Ha kérdéseid vagy visszajelzésed van, kérlek, lépj kapcsolatba az eredeti szerzövel, tszhong0411 / [hong-hong.me](https://hong-hong.me). Köszönöm a megértésedet!
 
-## ✈️ ❤️ Kredit
+## ❤️ Kredit
 
 Ez a projekt a fantasztikus open-source közösség segítségével vált lehetségessé. Külön köszönet Hong-nak!
 

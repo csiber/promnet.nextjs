@@ -1,0 +1,8 @@
+{
+  "defaultCommentOrder": "newest",
+  "origins": ["promnet-hu.vercel.app"],
+  "originsRegex": [
+    "https://promnet-([A-z0-9]|-)hu\\.vercel\\.app",
+    "https?://localhost:[0-9]+"
+  ]
+}
