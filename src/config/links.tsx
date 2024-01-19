@@ -65,6 +65,11 @@ export const HEADER_LINKS: HeaderLinks = [
   },
   {
     icon: <IconDeviceDesktop size={14} />,
+    href: '/contact',
+    text: 'Kapcsolat'
+  },
+  {
+    icon: <IconDeviceDesktop size={14} />,
     href: 'https://promshop.hu',
     text: 'Webshop'
   }
@@ -100,12 +105,12 @@ export const FOOTER_LINKS: FooterLinks = [
         title: 'Vendégkönyv'
       },
       {
-        href: '/uses',
-        title: 'Technikai háttér'
-      },
-      {
         href: '/projects',
         title: 'Projektek'
+      },
+      {
+        href: '/contact',
+        title: 'Kapcsolat'
       },
       {
         href: 'https://promshop.hu',
