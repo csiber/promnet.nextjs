@@ -9,7 +9,7 @@ dependencies:
     specifier: ^2.4.0
     version: 2.4.0(react-dom@18.2.0)(react@18.2.0)
   '@icons-pack/react-simple-icons':
-    specifier: ^9.3.0
+    specifier: ^9.2.0
     version: 9.3.0(react@18.2.0)
   '@next-auth/prisma-adapter':
     specifier: ^1.0.7
@@ -21,7 +21,7 @@ dependencies:
     specifier: ^20.0.2
     version: 20.0.2
   '@prisma/client':
-    specifier: ^5.8.1
+    specifier: ^5.8.0
     version: 5.8.1(prisma@5.8.1)
   '@radix-ui/react-alert-dialog':
     specifier: ^1.0.5
@@ -60,7 +60,7 @@ dependencies:
     specifier: ^3.0.3
     version: 3.0.3
   '@vercel/speed-insights':
-    specifier: ^1.0.5
+    specifier: ^1.0.4
     version: 1.0.5(@babel/core@7.23.7)(@opentelemetry/api@1.7.0)(react-dom@18.2.0)(typescript@5.3.3)(vite@4.5.2)
   canvas-confetti:
     specifier: ^1.9.2
@@ -167,7 +167,7 @@ devDependencies:
     specifier: ^12.4.0
     version: 12.4.0
   '@playwright/test':
-    specifier: ^1.41.0
+    specifier: ^1.40.1
     version: 1.41.0
   '@tailwindcss/typography':
     specifier: ^0.5.10
@@ -197,10 +197,10 @@ devDependencies:
     specifier: ^2.0.10
     version: 2.0.10
   '@types/node':
-    specifier: ^20.11.5
+    specifier: ^20.11.1
     version: 20.11.5
   '@types/react':
-    specifier: ^18.2.48
+    specifier: ^18.2.47
     version: 18.2.48
   '@types/react-dom':
     specifier: ^18.2.18
@@ -212,16 +212,16 @@ devDependencies:
     specifier: ^4.2.1
     version: 4.2.1(vite@4.5.2)
   '@vitest/coverage-v8':
-    specifier: ^1.2.1
+    specifier: ^1.2.0
     version: 1.2.1(vitest@1.2.1)
   '@vitest/ui':
-    specifier: ^1.2.1
+    specifier: ^1.2.0
     version: 1.2.1(vitest@1.2.1)
   all-contributors-cli:
     specifier: ^6.26.1
     version: 6.26.1
   autoprefixer:
-    specifier: ^10.4.17
+    specifier: ^10.4.16
     version: 10.4.17(postcss@8.4.33)
   concurrently:
     specifier: ^8.2.2
@@ -254,16 +254,16 @@ devDependencies:
     specifier: ^15.2.0
     version: 15.2.0
   msw:
-    specifier: ^2.1.2
+    specifier: ^2.0.14
     version: 2.1.2(typescript@5.3.3)
   postcss:
     specifier: ^8.4.33
     version: 8.4.33
   prettier:
-    specifier: ^3.2.4
+    specifier: ^3.2.2
     version: 3.2.4
   prisma:
-    specifier: ^5.8.1
+    specifier: ^5.8.0
     version: 5.8.1
   schema-dts:
     specifier: ^1.1.2
@@ -275,7 +275,7 @@ devDependencies:
     specifier: 5.3.3
     version: 5.3.3
   vitest:
-    specifier: ^1.2.1
+    specifier: ^1.2.0
     version: 1.2.1(@types/node@20.11.5)(@vitest/ui@1.2.1)(jsdom@23.2.0)
 
 packages:
