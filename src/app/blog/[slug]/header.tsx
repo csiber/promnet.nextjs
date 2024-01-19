@@ -84,9 +84,9 @@ const Header = (props: HeaderProps) => {
                 className='rounded-full'
                 width={24}
                 height={24}
-                alt='Hong'
+                alt='csiber'
               />
-              Hong
+              csiber
             </a>
           </div>
           <div className='space-y-1 md:mx-auto'>

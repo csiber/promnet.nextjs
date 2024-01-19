@@ -1,13 +1,13 @@
 {
   "private": true,
-  "name": "honghong.me",
-  "version": "0.0.0",
-  "description": "My personal website and blog built with TypeScript, Next.js, and Tailwind CSS",
+  "name": "promnet.hu",
+  "version": "0.0.1",
+  "description": "PromNET.hu portál TypeScript, Next.js, és Tailwind CSS használatával",
   "license": "AGPL-3.0-only",
-  "author": "tszhong0411 <me@honghong.me> (https://github.com/tszhong0411/)",
+  "author": "csiber <csiberius@gmail.com> (https://github.com/csiber/)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tszhong0411/honghong.me.git"
+    "url": "git+https://github.com/csiber/promnet.hu.git"
   },
   "type": "module",
   "scripts": {

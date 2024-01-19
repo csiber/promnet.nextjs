@@ -65,8 +65,8 @@ export const HEADER_LINKS: HeaderLinks = [
   },
   {
     icon: <IconDeviceDesktop size={14} />,
-    href: '/uses',
-    text: 'Technikai háttér'
+    href: 'https://promshop.hu',
+    text: 'Webshop'
   }
 ]
 

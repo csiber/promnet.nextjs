@@ -110,7 +110,7 @@ const ArticleCard = (props: ArticleCardProps) => {
   )
 
   React.useEffect(() => {
-    setFormattedDate(dayjs(date).format('LL'))
+    setFormattedDate(dayjs(date).format('YYYY.MM.DD'))
   }, [date])
 
   return (
@@ -139,9 +139,9 @@ const ArticleCard = (props: ArticleCardProps) => {
       <div className='flex items-center justify-between gap-2 px-2 pt-4 text-sm text-zinc-500'>
         {formattedDate || '--'}
         <div className='flex gap-2'>
-          {likesIsLoading ? '--' : <div>{likesData?.likes} likes</div>}
+          {likesIsLoading ? '--' : <div>{likesData?.likes} lájk</div>}
           <div>&middot;</div>
-          {viewsIsLoading ? '--' : <div>{viewsData?.views} views</div>}
+          {viewsIsLoading ? '--' : <div>{viewsData?.views} megtekintés</div>}
         </div>
       </div>
       <div className='flex flex-col px-2 py-4 transition-transform duration-200 ease-out group-hover:translate-x-0.5'>
