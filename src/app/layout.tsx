@@ -114,7 +114,6 @@ const RootLayout = (props: RootLayoutProps) => {
           >
             {children}
           </main>
-          <SpeedInsights />
           <Toaster />
           <Footer />
           <Analytics />
