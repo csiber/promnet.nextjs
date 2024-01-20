@@ -1,3 +1,4 @@
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import { GeistMono } from 'geist/font/mono'
 import { GeistSans } from 'geist/font/sans'
 import type { Metadata, Viewport } from 'next'
@@ -113,6 +114,7 @@ const RootLayout = (props: RootLayoutProps) => {
           >
             {children}
           </main>
+          <SpeedInsights />
           <Toaster />
           <Footer />
           <Analytics />
