@@ -40,8 +40,13 @@ type SocialLinks = Array<{
 export const HEADER_LINKS: HeaderLinks = [
   {
     icon: <IconPencil size={14} />,
-    href: '/blog',
-    text: 'Blog'
+    href: 'https://promnetszerviz.hu',
+    text: 'Szerviz'
+  },
+  {
+    icon: <IconDeviceDesktop size={14} />,
+    href: 'https://promshop.hu',
+    text: 'Webshop'
   },
   {
     icon: <IconMessageCircle size={14} />,
@@ -67,11 +72,6 @@ export const HEADER_LINKS: HeaderLinks = [
     icon: <IconDeviceDesktop size={14} />,
     href: '/contact',
     text: 'Kapcsolat'
-  },
-  {
-    icon: <IconDeviceDesktop size={14} />,
-    href: 'https://promshop.hu',
-    text: 'Webshop'
   }
 ]
 
