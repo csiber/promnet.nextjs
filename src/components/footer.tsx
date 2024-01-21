@@ -2,8 +2,6 @@ import NextLink from 'next/link'
 
 import { FOOTER_LINKS, type Link } from '@/config/links'
 
-import CurrentVisitors from './current-visitors'
-
 const FooterLink = (props: Link) => {
   const { title, href } = props
 
@@ -50,7 +48,6 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} PromNET.hu - Internetes
           szolgáltatások - Polyák Csaba E.V.
         </div>
-        {process.env.NODE_ENV === 'production' && <CurrentVisitors />}
       </div>
     </footer>
   )

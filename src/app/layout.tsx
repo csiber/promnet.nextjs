@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import { GeistMono } from 'geist/font/mono'
 import { GeistSans } from 'geist/font/sans'
@@ -7,7 +8,6 @@ import Image from 'next/image'
 import { SessionProvider } from 'next-auth/react'
 
 import '@/styles/globals.css'
-import Analytics from '@/components/analytics'
 import Footer from '@/components/footer'
 import Header from '@/components/header'
 import SignInModal from '@/components/sign-in-modal'
@@ -114,10 +114,10 @@ const RootLayout = (props: RootLayoutProps) => {
           >
             {children}
           </main>
+          <Analytics />
           <SpeedInsights />
           <Toaster />
           <Footer />
-          <Analytics />
           <SignInModal />
           <Image
             width={1512}
