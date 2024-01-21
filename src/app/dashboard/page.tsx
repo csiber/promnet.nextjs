@@ -8,7 +8,7 @@ import Items from './items'
 export const runtime = 'edge'
 const title = 'Vezérlőpult'
 const description =
-  'Ez az én személyes irányítópultom, amely kiszolgáló nélküli függvényként telepített Next.js API-útvonalakkal készült. Ezzel az irányítópulttal különféle mutatókat követek nyomon olyan platformokon, mint a YouTube, a GitHub és egyebek.'
+  'Ez az én személyes irányítópultom. Ezzel az irányítópulttal különféle mutatókat követek nyomon olyan platformokon, mint a YouTube, a GitHub és egyebek.'
 
 type DashboardPageProps = {
   params: Record<string, never>
@@ -47,7 +47,7 @@ const DashboardPage = () => {
     <>
       <PageTitle
         title='Vezérlőpult'
-        description='Ez az én személyes irányítópultom, amely kiszolgáló nélküli függvényként telepített Next.js API-útvonalakkal készült. Ezzel az irányítópulttal különféle mutatókat követek nyomon olyan platformokon, mint a YouTube, a GitHub és egyebek.'
+        description='Ez az én személyes irányítópultom. Ezzel az irányítópulttal különféle mutatókat követek nyomon olyan platformokon, mint a YouTube, a GitHub és egyebek.'
       />
       <Items />
     </>

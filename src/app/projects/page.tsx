@@ -8,7 +8,7 @@ import site from '@/config/site'
 export const runtime = 'edge'
 const title = 'Projektek'
 const description =
-  'Lista a munkáimról, folyamatosan töltöm fel! Sajnos néhány régebbi már nem elérhetö :('
+  'Lista a munkáimról, folyamatosan töltöm fel! Sajnos néhány régebbi már nem elérhetö :( Folyamatosan töltödik, a lista nem teljes.'
 
 type ProjectsPageProps = {
   params: Record<string, never>
@@ -47,7 +47,7 @@ const ProjectsPage = () => {
     <>
       <PageTitle
         title='Projektek'
-        description='Lista a munkáimról, folyamatosan töltöm fel! Sajnos néhány régebbi már nem elérhetö :('
+        description='Lista a munkáimról, folyamatosan töltöm fel! Sajnos néhány régebbi már nem elérhetö :( Folyamatosan töltödik, a lista nem teljes.'
       />
       <ProjectCards projects={allProjects} />
     </>

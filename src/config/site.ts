@@ -11,7 +11,7 @@ type Site = {
   favicons: IconDescriptor[]
 }
 
-const prodBaseURL = 'https://promnet-hu.vercel.app'
+const prodBaseURL = 'https://promnet.hu'
 const devBaseURL = 'http://localhost:3000'
 
 const site: Site = {

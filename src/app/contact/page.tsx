@@ -47,7 +47,10 @@ const ContactPage = () => {
 
   return (
     <>
-      <PageTitle title='Kapcsolat' description='Vállalkozás adatai.' />
+      <PageTitle
+        title='Kapcsolat'
+        description='Vállalkozás adatai, mert fontos!'
+      />
       <Mdx code={page.body.code} />
     </>
   )
