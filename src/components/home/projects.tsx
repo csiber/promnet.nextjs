@@ -38,7 +38,7 @@ const Projects = () => {
       className='relative my-24 will-change-[transform,opacity]'
     >
       <motion.h2
-        className='text-center font-title text-3xl font-bold sm:text-4xl'
+        className='text-center font-title text-2xl font-bold sm:text-4xl'
         initial={{
           y: 30,
           opacity: 0
@@ -51,7 +51,8 @@ const Projects = () => {
           duration: 0.3
         }}
       >
-        Aktuális projektek
+        Érdekelnek a munkáim? Tekintsd meg az éppen folyamatban lévő és már
+        lezárult projekteimet!
       </motion.h2>
       <motion.div
         className='mt-12 grid gap-4 md:grid-cols-2'

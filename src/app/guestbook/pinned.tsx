@@ -11,7 +11,7 @@ const Pinned = () => {
       </div>
       <div>
         Halihó! Köszönöm, hogy meglátogattad a honlapomat. Ha van egy perced,
-        szeretném hallani a gondolataidat a munkámmal kapcsolatban. Kérlek,
+        szeretném olvasni a gondolataidat a munkámmal kapcsolatban. Kérlek,
         jelentkezzen be a saját Google vagy GitHub-fiókoddal a megjegyzés
         írásához. Köszönöm szépen! :)
       </div>

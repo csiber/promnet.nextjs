@@ -3,7 +3,6 @@ import NextLink from 'next/link'
 import { FOOTER_LINKS, type Link } from '@/config/links'
 
 import CurrentVisitors from './current-visitors'
-import NowPlaying from './now-playing'
 
 const FooterLink = (props: Link) => {
   const { title, href } = props
@@ -34,7 +33,6 @@ const FooterLink = (props: Link) => {
 const Footer = () => {
   return (
     <footer className='relative mx-auto mb-6 flex max-w-5xl flex-col rounded-2xl bg-background/30 p-8 shadow-sm saturate-100 backdrop-blur-[10px]'>
-      <NowPlaying />
       <div className='mt-12 grid grid-cols-2 sm:grid-cols-3'>
         {FOOTER_LINKS.map((list) => (
           <div
@@ -50,7 +48,7 @@ const Footer = () => {
       <div className='mt-20 flex items-center justify-between text-sm'>
         <div>
           &copy; {new Date().getFullYear()} PromNET.hu - Internetes
-          szolgáltatások
+          szolgáltatások - Polyák Csaba E.V.
         </div>
         {process.env.NODE_ENV === 'production' && <CurrentVisitors />}
       </div>

@@ -49,14 +49,14 @@ export const HEADER_LINKS: HeaderLinks = [
     text: 'Webshop'
   },
   {
+    icon: <IconChartBar size={14} />,
+    href: 'https://webtarhely-szolgaltato.hu',
+    text: 'Hoszting'
+  },
+  {
     icon: <IconMessageCircle size={14} />,
     href: '/guestbook',
     text: 'Vendégkönyv'
-  },
-  {
-    icon: <IconChartBar size={14} />,
-    href: '/dashboard',
-    text: 'Vezérlőpult'
   },
   {
     icon: <IconFlame size={14} />,
@@ -81,7 +81,7 @@ export const FOOTER_LINKS: FooterLinks = [
     links: [
       {
         href: '/',
-        title: 'Otthon'
+        title: 'Kezdölap'
       },
       {
         href: '/blog',
