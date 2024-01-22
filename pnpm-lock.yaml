@@ -182,8 +182,8 @@ devDependencies:
     specifier: ^14.5.2
     version: 14.5.2(@testing-library/dom@9.3.3)
   '@tszhong0411/eslint-config':
-    specifier: ^1.0.38
-    version: 1.0.38(eslint@8.56.0)(prettier@3.2.2)(tailwindcss@3.4.1)(typescript@5.3.3)
+    specifier: ^1.0.39
+    version: 1.0.39(eslint@8.56.0)(prettier@3.2.2)(tailwindcss@3.4.1)(typescript@5.3.3)
   '@tszhong0411/prettier-config':
     specifier: ^1.0.8
     version: 1.0.8(eslint@8.56.0)(prettier@3.2.2)
@@ -3430,8 +3430,8 @@ packages:
       '@testing-library/dom': 9.3.3
     dev: true
 
-  /@tszhong0411/eslint-config@1.0.38(eslint@8.56.0)(prettier@3.2.2)(tailwindcss@3.4.1)(typescript@5.3.3):
-    resolution: {integrity: sha512-jb6k0fAaAfNGiLfz2Kw4DWNJVEl1F9gQFFPjWDJlFTNBklsCHVaTPW6OuspyINVAFp7E0BdROlxLOzI3HDOPiQ==}
+  /@tszhong0411/eslint-config@1.0.39(eslint@8.56.0)(prettier@3.2.2)(tailwindcss@3.4.1)(typescript@5.3.3):
+    resolution: {integrity: sha512-BVzJc2l1XITUCus3hNn2u0bpzDku1PFAEcwlHm8PlNhXrOmvvTue4mGnxT/1FxXWefOr48yVjQD2N/5tdZMleA==}
     peerDependencies:
       eslint: 8.x
     dependencies:
