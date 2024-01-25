@@ -1,11 +1,11 @@
-'use server'
+export const runtime = 'edge'
 import { NextResponse } from 'next/server'
 import { createHash } from 'node:crypto'
 import { z } from 'zod'
 
 import { env } from '@/env'
 import prisma from '@/lib/prisma'
-export const runtime = 'edge'
+
 const schema = z.object({
   slug: z.string(),
   count: z.number().int().positive().min(1).max(3)
