@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "promnet.hu",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "PromNET.hu portál TypeScript, Next.js, és Tailwind CSS használatával",
   "license": "AGPL-3.0-only",
   "author": "csiber <csiberius@gmail.com> (https://github.com/csiber/)",
