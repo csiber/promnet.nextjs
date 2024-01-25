@@ -6,7 +6,7 @@ import site from '@/config/site'
 import { env } from '@/env'
 
 export const dynamic = 'force-dynamic'
-
+export const runtime = 'edge'
 export const GET = async () => {
   const octokit = new Octokit({
     auth: env.GITHUB_TOKEN
