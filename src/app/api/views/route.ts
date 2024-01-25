@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 
 import prisma from '@/lib/prisma'
-
+export const runtime = 'edge'
 export const GET = async (req: Request) => {
   const { searchParams } = new URL(req.url)
   const slug = searchParams.get('slug')
