@@ -1,3 +1,4 @@
+'use server'
 import { NextResponse } from 'next/server'
 import { createHash } from 'node:crypto'
 import { z } from 'zod'
