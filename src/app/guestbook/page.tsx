@@ -10,6 +10,7 @@ import Messages from './messages'
 import Pinned from './pinned'
 import SignIn from './sign-in'
 
+export const runtime = 'edge'
 const title = 'Vendégkönyv'
 const description = 'Írj be a vendégkönyvembe és oszd meg ötleted.'
 

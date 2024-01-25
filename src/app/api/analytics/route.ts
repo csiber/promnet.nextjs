@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server'
 
 import { env } from '@/env'
 import dayjs from '@/utils/dayjs'
-
+export const runtime = 'edge'
 export const dynamic = 'force-dynamic'
 
 const prisma = new PrismaClient({

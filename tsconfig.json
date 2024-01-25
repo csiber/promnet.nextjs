@@ -3,6 +3,7 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
+      "crypto": ["node_modules/crypto-js"],
       "@/*": ["./src/*"],
       "contentlayer/generated": ["./.contentlayer/generated"]
     },
