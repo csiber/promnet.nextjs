@@ -18,7 +18,7 @@ import cn from '@/utils/cn'
 type RootLayoutProps = {
   children: React.ReactNode
 }
-export const runtime = 'edge'
+
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
