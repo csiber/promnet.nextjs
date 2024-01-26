@@ -126,8 +126,8 @@ dependencies:
     specifier: ^17.4.3
     version: 17.4.3(react-dom@18.2.0)(react@18.2.0)
   rehype-pretty-code:
-    specifier: ^0.12.3
-    version: 0.12.3(shikiji@0.9.19)
+    specifier: ^0.12.6
+    version: 0.12.6(shikiji@0.9.19)
   rss:
     specifier: ^1.2.2
     version: 1.2.2
@@ -9340,11 +9340,11 @@ packages:
       unified: 11.0.4
     dev: false
 
-  /rehype-pretty-code@0.12.3(shikiji@0.9.19):
-    resolution: {integrity: sha512-6NbIit8A3hLrkKBEbNs862jVnTLeIOM2AmM0VZ/MtyHb+OuNMeCa6UZSx6UG4zrobm5tY9efTwhih1exsGYsiw==}
+  /rehype-pretty-code@0.12.6(shikiji@0.9.19):
+    resolution: {integrity: sha512-AW18s4eXwnb4PGwL0Y8BoUzBJr23epWNXndCKaZ52S4kl/4tsgM+406oCp5NdtPZsB0ItpaY+hCMv3kw58DLrA==}
     engines: {node: '>=18'}
     peerDependencies:
-      shikiji: ^0.7.0 || ^0.8.0 || ^0.9.0
+      shikiji: ^0.7.0 || ^0.8.0 || ^0.9.0 || ^0.10.0
     dependencies:
       '@types/hast': 3.0.3
       hast-util-to-string: 3.0.0
