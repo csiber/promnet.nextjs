@@ -54,11 +54,6 @@ export const HEADER_LINKS: HeaderLinks = [
     text: 'Hoszting'
   },
   {
-    icon: <IconMessageCircle size={14} />,
-    href: '/guestbook',
-    text: 'Vendégkönyv'
-  },
-  {
     icon: <IconFlame size={14} />,
     href: '/projects',
     text: 'Projektek'
