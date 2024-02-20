@@ -89,7 +89,6 @@
     "@testing-library/jest-dom": "^6.2.0",
     "@testing-library/react": "^14.1.2",
     "@testing-library/user-event": "^14.5.2",
-    "@sandfox/prettier-config": "^1.0.8",
     "@types/canvas-confetti": "^1.6.4",
     "@types/mdx": "^2.0.10",
     "@types/node": "^20.11.5",
