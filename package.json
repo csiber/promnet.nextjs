@@ -89,7 +89,7 @@
     "@testing-library/jest-dom": "^6.2.0",
     "@testing-library/react": "^14.1.2",
     "@testing-library/user-event": "^14.5.2",
-    "@dtothefp/eslint-config": "^1.0.38",
+    "@notbb/eslint-config-notbbLint": "^1.0.38",
     "@sandfox/prettier-config": "^1.0.8",
     "@TypeStrong/tsconfig": "^1.0.3",
     "@types/canvas-confetti": "^1.6.4",
